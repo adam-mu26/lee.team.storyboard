@@ -5,11 +5,12 @@
 body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  background-color: #24252a;
 }
 
 .card{
   border: 5px #333 solid;
-  background-color: white;
+  background-color: rgb(196, 196, 196);
 
   width: 25%;
   /* min-width: 200px; */
