@@ -13,14 +13,10 @@ body{
   background-color: rgb(196, 196, 196);
 
   width: 25%;
-  /* min-width: 200px; */
+
   border-radius: 20px;
 
-  /* background-color: #333; */
-
   text-align: center;
-
-  /* display: inline-block; */
 
   float: left;
 
@@ -30,8 +26,6 @@ body{
 .card img{
   margin: 5px;
   width: 80%;
-  
-  /* height: calc(width); */
 }
 
 .card p{
@@ -42,7 +36,6 @@ body{
 }
 
 .card-row{
-  /* max-width: 100%; */
   width: 100%;
 
   display: flex;
