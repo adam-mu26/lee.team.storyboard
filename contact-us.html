@@ -3,62 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- <link rel="stylesheet" href="nav.css"> -->
-  <link rel="icon" href="./assets/feather-ilustration-logo-template-design-free-vector-removebg-preview.png" type="png"
-    title="icon">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="icon" href="./assets/feather-ilustration-logo-template-design-free-vector-removebg-preview.png" type="png" title="icon">
 </head>
 
 <body>
-  <nav>
-    <ul class="nav__links">
-      <li><a href="./index.html">Story</a></li>
-      <li><a href="./page_2.html">Ranking</a></li>
-    </ul>
-  </nav>
-
-  <a class="cta" href="./contact-us.html"><button>Contact Us</button></a>
+  <header>
+    <img class="img" src="./assets/feather-ilustration-logo-template-design-free-vector-removebg-preview.png" alt="logo"
+      height="50px" width="60px">
+    <nav>
+      <ul class="nav__links">
+        <li><a href="./index.html">Story</a></li>
+        <li><a href="./page_2.html">Ranking</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="./contact-us.html"><button>Contact Us</button></a>
   </header>
   <main id="container">
-    <header class="heading">
-      <h1>Contact us</h1>
-    </header>
-    <h4 class="heading2">Please fill this form in a decent manner</h4>
+
+    <!-- <header class="heading"> -->
+      <h1 class="heading">Contact us</h1>
+    <!-- </header> -->
+    <h4 class="heading2">Please fill this form in a decent manner:</h4>
+
     <section class="form">
       <form action="#">
         <div class="form2">
           <label for="first-name">First Name</label>
-          <input type="text" name="first-name" id="first-name">
+          <input type="text" name="first-name" id="first-name" placeholder="First Name">
         </div>
         <div class="form2">
           <label for="Last-name">Last Name</label>
-          <input type="text" name="Last-name" id="Last-name">
+          <input type="text" name="Last-name" id="Last-name" placeholder="Last Name">
         </div>
         <div class="form2">
           <label for="location">Location</label>
-          <input type="location" name="location" id="location">
+          <input type="location" name="location" id="location" placeholder="Your Location">
         </div>
         <div class="form2">
           <section class="gndr">
-            <select name="gnd" id="gender">
-              <option value="male">male</option>
-              <option value="female">female</option>
-            </select>
+            <label" for="Gender">
+              <p>Gender</p></label>
+              <select name="gnd" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
           </section>
         </div>
         <div class="form2"></div>
         </div>
         <div class="form2">
-          <label for="Topic">topic</label>
-          <input type="Topic" name="topic" id="topic">
-        </div>
-        <div>
-          <label for="Text">what can we help you with?</label>
-          <input type="text" name="Text" id="Text">
+          <div class="topic">
+            <label for="Topic">Message Subject</label>
+            <input type="Text" name="topic" placeholder="Subject" id="topic">
+
+            </input>
+
+
+          </div>
+          <div class="message">
+            <label for="Text">Message</label>
+            <input style="height: 8%;" type="text" name="Text" id="Text" placeholder="Your message">
+          </div>
         </div>
         <footer>
-          <button id="submit-btn" type="submit">submit</button>
+          <button id="submit-btn" type="submit">Submit</button>
 
           <button id="reset-btn" type="reset">Reset</button>
         </footer>
