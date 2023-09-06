@@ -1,6 +1,6 @@
 # lee.team.storyboard
 
-#Team
+# Team
 Leader: Adam Muhtadi
 Fathi zidan
 Simon Asmar
